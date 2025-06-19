@@ -74,42 +74,6 @@ El estado se maneja con `opcionActiva` y `setOpcionActiva` para recordar cuál e
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
-
-- **Next.js 13+** (App Router)
-- **React** (Hooks: `useState`)
-- **Tailwind CSS** (Estilos)
-- **Next/Image** (Optimización de imágenes)
-
----
-
-## 📂 Estructura del Proyecto
-
-```
-/public
-├── evento1.jpg
-├── yanosupequeponerdeimagen.jpg
-├── chava.jpg
-├── sifuentes.jpg
-└── manuel.jpg
-
-/app
-└── page.js (componente principal)
-```
-
----
-
-## 🎯 Conceptos de React Aprendidos
-
-1. **Estado con `useState`**: Manejo de `eventoActivo`, `mensaje`, y `opcionActiva`
-2. **Eventos del navegador**: `onClick`, `onChange`, `onDoubleClick`
-3. **Renderizado condicional**: Mostrar contenido basado en el estado
-4. **Props y callbacks**: Pasar funciones como props
-5. **Manejo de formularios**: Prevenir envío con `e.preventDefault()`
-6. **Inputs controlados**: Radio buttons controlados por React
-
----
-
 ## 🚀 Cómo ejecutar
 
 ```bash
@@ -119,15 +83,3 @@ npm run dev
 
 Abre [http://localhost:3000](http://localhost:3000) para ver la aplicación.
 
----
-
-## 💡 Notas Importantes
-
-- El **Evento 2** usa un formulario con `onSubmit` pero previene el envío real con `e.preventDefault()`
-- El **Evento 4** maneja un estado adicional (`opcionActiva`) específico para los radio buttons
-- Cada evento limpia el mensaje anterior al cambiar de evento
-- Las imágenes deben estar en la carpeta `/public` para funcionar correctamente
-
----
-
-**¡Diviértete explorando los eventos del navegador! 🎉**
